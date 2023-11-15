@@ -4,16 +4,16 @@ CREATE DATABASE employees_db;
 
 USE employees_db;
 
--- This will create the department table and it will have an id column that is an integer
--- and is the primary key and it will auto increment. It will also have a department_name
--- column that is a varchar and is not null.
+--Creates the Table of department and shows each one by it's primary key which is auto incremented
+--The VARCHAR cannot exceed 30 characters and it cannot be null
 CREATE TABLE
     department (
         id INTEGER PRIMARY KEY AUTO_INCREMENT,
         department_name VARCHAR(30) NOT NULL
     );
 
--- Similarly, this will create a role table
+-- Same thing for the role table but requires decimal values and a department id thats in the 
+-- form of an integer. It also references the department table's id requirement
 CREATE TABLE
     role (
         id INTEGER PRIMARY KEY AUTO_INCREMENT,
@@ -26,7 +26,7 @@ CREATE TABLE
         ON DELETE CASCADE
     );
 
--- Similarly, this will create an employee table
+-- Same thing for the employee table 
 CREATE TABLE
     employee (
         id INTEGER PRIMARY KEY AUTO_INCREMENT,
