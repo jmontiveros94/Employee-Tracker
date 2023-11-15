@@ -1,7 +1,7 @@
 {
-    "name": "employee-tracker-kd",
+    "name": "employee-tracker",
     "version": "1.0.0",
-    "description": "This is an Employee Tracker database",
+    "description": "Employee Tracker Database",
     "main": "server.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/kevindimayuga/employee-tracker-kd.git"
+      "url": "git+https://github.com/jmontiveros94/Employee-Tracker.git"
     },
-    "author": "Kevin Dimayuga",
+    "author": "Jacob Ontiveros",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/kevindimayuga/employee-tracker-kd/issues"
+      "url": "https://github.com/jmontiveros94/Employee-Tracker/issues"
     },
-    "homepage": "https://github.com/kevindimayuga/employee-tracker-kd#readme",
+    "homepage": "https://github.com/jmontiveros94/Employee-Tracker",
     "dependencies": {
       "chalk": "^4.0.0",
       "console.table": "^0.10.0",

@@ -9,7 +9,7 @@ VALUES ("Marketing"),
 -- This will insert data about each role into the database
 INSERT INTO role (title, salary, department_id)
 VALUES ("Product Manager", 100000, 1),
-       ("Customer Service Representative", 50000, 1),
+       ("Customer Service ", 50000, 1),
        ("Operations Manager", 150000, 2),
        ("Operations Analyst", 75000, 2),
        ("Talent Acquisition Manager", 125000, 3),
